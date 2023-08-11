@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sky {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0073b7, #B0E0E6);
+    position: relative;
+    overflow: hidden;
+  }
+
+.title-container{
+    background-color: #0d67b3;
+    width: 50%;
+    height: 50px;
+    color: white;
+}
+
+h1{
+    z-index: 10;
+}
+
+.name-container{
+    background-color: #fe9207;
+    width: 50%;
+    height: 50px;
+}
+
+.name-color{
+    color: white;
+}
+
+.stars{
+    display: grid;
+    grid-template-columns: repeat(15, 2fr);
+    grid-template-rows: repeat(15, 2fr);
+    gap: 20px; /* Espacio entre estrellas */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+.star {
+    background-color: #fe9207;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 2%;
+    opacity: 50%;
+  }
+  
