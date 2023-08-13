@@ -71,7 +71,7 @@ window.onload = () => {
         if(direction === 'right'){
             cloud.style.animation = 'moveCloudRightToLeft 100s linear infinite'
         } else {
-            cloud.style.animation = 'moveCloudLeftToRight 100s linear infinite'
+            cloud.style.animation = 'moveCloudLeftToRight 80s linear infinite'
         }
 
         cloud.style.top = `${getRandomTop()}px`
