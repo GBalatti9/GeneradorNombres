@@ -40,8 +40,7 @@ h1 {
     text-align: center;
     padding: 1%;
     background-color: #fe9207;
-    width: 60%;
-    max-width: 355px;
+    width: 350px;
     z-index: 10;
     /* height: 7%; */
 }
