@@ -24,7 +24,7 @@
 
 .title-container {
     background-color: #0d67b3;
-    padding: 5%;
+    padding: 4%;
     border-radius: 5px;
     color: white;
     z-index: 10;
@@ -33,7 +33,7 @@
 h1 {
     font-family: PaceSansWebfont, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .name-container {
@@ -41,9 +41,13 @@ h1 {
     padding: 1%;
     background-color: #fe9207;
     width: 60%;
-    max-width: 210px;
+    max-width: 300px;
     z-index: 10;
     /* height: 7%; */
+}
+
+h3{
+    font-size: 25px;
 }
 
 .name-color {
@@ -176,9 +180,9 @@ h1 {
     .title-container{
         padding: 3%;
     }
-    .name-container{
+    /* .name-container{
         width: 40%;
-    }
+    } */
 }
 
 @media (min-width: 768px){
@@ -192,7 +196,7 @@ h1 {
 
 @media (min-width: 1024px){
     .title-container{
-        padding: 2%;
+        padding: 1.5%;
     }
 
     .name-container{
