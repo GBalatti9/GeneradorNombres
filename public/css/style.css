@@ -87,6 +87,9 @@ h3{
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
     z-index: 10;
+
+    -webkit-appearance: none; /* Elimina los estilos de apariencia del sistema en Safari */
+    -webkit-border-radius: 5px; /* Border radius para navegadores WebKit */
 }
 
 #button:hover {
